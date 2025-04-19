@@ -1,13 +1,22 @@
 <!DOCTYPE html>
-
 <html>
   <head>
     <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
-    <!-- the entire body must be written by student -->
+    <!-- A spinner for loading indication -->
+    <div id="loading" style="display: none;">Loading...</div>
+
+    <!-- Div to display error messages -->
+    <div id="error"></div>
+
+    <!-- Div to display downloaded images -->
     <div id="output"></div>
+
+    <!-- Button to trigger image download -->
+    <button id="download-images-button">Download Images</button>
+
     <script type="text/javascript" src="./script.js"></script>
   </body>
 </html>
